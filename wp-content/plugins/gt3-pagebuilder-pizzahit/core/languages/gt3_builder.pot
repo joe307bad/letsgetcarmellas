@@ -1,0 +1,733 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GT3Themes WP\n"
+"POT-Creation-Date: 2017-05-03 10:31+0300\n"
+"PO-Revision-Date: 2016-07-11 14:19+0300\n"
+"Last-Translator: \n"
+"Language-Team: GT3Themes <help@gt3themes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: core/tgm\n"
+
+#: core/get-module-settings.php:22
+msgid "Heading"
+msgstr ""
+
+#: core/get-module-settings.php:26
+msgid "Size"
+msgstr ""
+
+#: core/get-module-settings.php:33
+msgid "Alignment"
+msgstr ""
+
+#: core/get-module-settings.php:40
+msgid "Sub Title"
+msgstr ""
+
+#: core/get-module-settings.php:44
+msgid "Show Title Divider"
+msgstr ""
+
+#: core/get-module-settings.php:113 core/pb-functions.php:508
+msgid "Upload Image"
+msgstr ""
+
+#: core/get-module-settings.php:251 core/get-module-settings.php:280
+msgid "All"
+msgstr ""
+
+#: core/get-module-settings.php:265
+msgid "No category available. Please add new category in the posts section."
+msgstr ""
+
+#: core/get-module-settings.php:292
+msgid ""
+"No category available. Please add new category in the portfolio section."
+msgstr ""
+
+#: core/get-module-settings.php:364
+msgid "Give some name"
+msgstr ""
+
+#: core/get-module-settings.php:365
+msgid "Give some link"
+msgstr ""
+
+#: core/get-module-settings.php:366
+msgid "Icon color"
+msgstr ""
+
+#: core/get-module-settings.php:391
+msgid "You can use the custom CSS class for this module."
+msgstr ""
+
+#: core/get-module-settings.php:395
+msgid "Please set the custom margin-bottom of the module."
+msgstr ""
+
+#: core/get-module-settings.php:417
+msgid "Done"
+msgstr ""
+
+#: core/pb-ajax-handlers.php:99
+msgid "Insert"
+msgstr ""
+
+#: core/pb-functions.php:313 core/pb-functions.php:374
+#: core/pb-functions.php:437
+msgid "Title"
+msgstr ""
+
+#: core/pb-functions.php:317 core/pb-functions.php:329
+#: core/pb-functions.php:378 core/pb-functions.php:394
+#: core/pb-functions.php:441 core/pb-functions.php:453
+#: core/pb-functions.php:502 core/pb-functions.php:521
+msgid "color"
+msgstr ""
+
+#: core/pb-functions.php:325 core/pb-functions.php:390
+#: core/pb-functions.php:449 core/pb-functions.php:517
+msgid "Caption"
+msgstr ""
+
+#: core/pb-functions.php:359 core/pb-functions.php:483
+msgid "Video settings"
+msgstr ""
+
+#: core/pb-functions.php:364 core/pb-functions.php:488
+msgid "Video URL (YouTube or Vimeo)"
+msgstr ""
+
+#: core/pb-functions.php:367 core/pb-functions.php:491
+#: core/shortcodes/video.php:104
+msgid "Examples:"
+msgstr ""
+
+#: core/pb-functions.php:432
+msgid "Image Settings"
+msgstr ""
+
+#: core/pb-functions.php:498
+msgid "Title and thumbnail"
+msgstr ""
+
+#: core/pb-modules.php:8
+msgid "Add simple accordion style with collapsible components."
+msgstr ""
+
+#: core/pb-modules.php:12
+msgid "Add Advertisment Block."
+msgstr ""
+
+#: core/pb-modules.php:16
+msgid "Display standard style blog to the page."
+msgstr ""
+
+#: core/pb-modules.php:20
+msgid "Display entire content available in the visual editor."
+msgstr ""
+
+#: core/pb-modules.php:24
+msgid "Add background image, color, pattern to the modules area."
+msgstr ""
+
+#: core/pb-modules.php:28
+msgid "Add closing tag for \"Background Start\" module."
+msgstr ""
+
+#: core/pb-modules.php:32
+msgid "Add dishes presentation."
+msgstr ""
+
+#: core/pb-modules.php:36
+msgid "Add divider to separate module blocks."
+msgstr ""
+
+#: core/pb-modules.php:40
+msgid "Display blog posts from different categories."
+msgstr ""
+
+#: core/pb-modules.php:44
+msgid "Display gallery from existing gallery list."
+msgstr ""
+
+#: core/pb-modules.php:48
+msgid "Add simple google map."
+msgstr ""
+
+#: core/pb-modules.php:52
+msgid "Add any HTML code or shortcode to display on the page."
+msgstr ""
+
+#: core/pb-modules.php:56
+msgid "Add simple heading."
+msgstr ""
+
+#: core/pb-modules.php:60
+msgid "Add content block with the icon."
+msgstr ""
+
+#: core/pb-modules.php:64
+msgid "Add content block with the image."
+msgstr ""
+
+#: core/pb-modules.php:68
+msgid "Add javascript code to run on the page."
+msgstr ""
+
+#: core/pb-modules.php:74
+msgid "Add menu on page."
+msgstr ""
+
+#: core/pb-modules.php:79
+msgid "Add advanced and flexible progress bar."
+msgstr ""
+
+#: core/pb-modules.php:83
+msgid "Add single_image."
+msgstr ""
+
+#: core/pb-modules.php:87
+msgid "Add any plugin that uses shortcodes."
+msgstr ""
+
+#: core/pb-modules.php:91
+msgid "Display selected team members from existing list."
+msgstr ""
+
+#: core/pb-modules.php:95
+msgid "Display the selected testimonials from existing list."
+msgstr ""
+
+#: core/pb-modules.php:99
+msgid "Add simple text area."
+msgstr ""
+
+#: core/pb-modules.php:103
+msgid "Add vimeo or youtube video."
+msgstr ""
+
+#: core/pb-modules.php:165 core/pb-modules.php:557 core/pb-modules.php:923
+msgid "Add new item"
+msgstr ""
+
+#: core/pb-modules.php:198 core/pb-modules.php:956
+msgid "Expanded"
+msgstr ""
+
+#: core/pb-modules.php:281
+msgid "Select gallery"
+msgstr ""
+
+#: core/pb-modules.php:324
+msgid "Thumbs format preview"
+msgstr ""
+
+#: core/pb-modules.php:325
+msgid "Images in a row"
+msgstr ""
+
+#: core/pb-modules.php:327
+msgid "Fullwidth"
+msgstr ""
+
+#: core/pb-modules.php:354
+msgid "Show Background"
+msgstr ""
+
+#: core/pb-modules.php:358
+msgid "Contact List"
+msgstr ""
+
+#: core/pb-modules.php:363
+msgid "Select icons"
+msgstr ""
+
+#: core/pb-modules.php:387 core/pb-modules.php:1045 core/pb-modules.php:1207
+msgid "Select Image"
+msgstr ""
+
+#: core/pb-modules.php:413
+msgid "Posts per page"
+msgstr ""
+
+#: core/pb-modules.php:414 core/pb-modules.php:456 core/pb-modules.php:484
+#: core/pb-modules.php:628
+msgid "Items per line"
+msgstr ""
+
+#: core/pb-modules.php:415 core/pb-modules.php:485
+msgid "Categories"
+msgstr ""
+
+#: core/pb-modules.php:434
+msgid "Shortcode"
+msgstr ""
+
+#: core/pb-modules.php:435
+msgid ""
+"You can add any slider(plugin) that uses shortcodes. Please copy/paste the "
+"slider plugin shortcode to the content area above and click \"Done\"."
+msgstr ""
+
+#: core/pb-modules.php:455
+msgid "Select partners"
+msgstr ""
+
+#: core/pb-modules.php:483
+msgid "Number of posts"
+msgstr ""
+
+#: core/pb-modules.php:486 core/pb-modules.php:655
+msgid "Sorting type"
+msgstr ""
+
+#: core/pb-modules.php:528
+msgid ""
+"Examples:<br>Youtube - http://www.youtube.com/watch?v=6v2L2UGZJAM<br>Vimeo - "
+"http://vimeo.com/47989207"
+msgstr ""
+
+#: core/pb-modules.php:529
+msgid "Video url"
+msgstr ""
+
+#: core/pb-modules.php:530
+msgid "Video cover image"
+msgstr ""
+
+#: core/pb-modules.php:531
+msgid "Video height"
+msgstr ""
+
+#: core/pb-modules.php:550
+msgid "Bar Background"
+msgstr ""
+
+#: core/pb-modules.php:551
+msgid "Bar Color"
+msgstr ""
+
+#: core/pb-modules.php:552
+msgid "Bar height:"
+msgstr ""
+
+#: core/pb-modules.php:586
+msgid "Percent"
+msgstr ""
+
+#: core/pb-modules.php:627
+msgid "Select team members"
+msgstr ""
+
+#: core/pb-modules.php:629
+msgid "Vertical Align"
+msgstr ""
+
+#: core/pb-modules.php:632
+msgid "Order type"
+msgstr ""
+
+#: core/pb-modules.php:654
+msgid "Select testimonials"
+msgstr ""
+
+#: core/pb-modules.php:675
+msgid "Text"
+msgstr ""
+
+#: core/pb-modules.php:676
+msgid ""
+"You can use any HTML tags and shortcodes that are available in this plugin."
+msgstr ""
+
+#: core/pb-modules.php:699
+msgid "View Type"
+msgstr ""
+
+#: core/pb-modules.php:702
+msgid "Menu Type"
+msgstr ""
+
+#: core/pb-modules.php:705
+msgid "Products Category"
+msgstr ""
+
+#: core/pb-modules.php:708
+msgid "Enter Products IDs"
+msgstr ""
+
+#: core/pb-modules.php:732
+msgid "HTML"
+msgstr ""
+
+#: core/pb-modules.php:733
+msgid "You can use HTML tags and shortcodes."
+msgstr ""
+
+#: core/pb-modules.php:753
+msgid "Javascript"
+msgstr ""
+
+#: core/pb-modules.php:754
+msgid "You can use Javascript and shortcodes."
+msgstr ""
+
+#: core/pb-modules.php:775
+msgid "Please set the custom top padding before the modules."
+msgstr ""
+
+#: core/pb-modules.php:776
+msgid "Properties"
+msgstr ""
+
+#: core/pb-modules.php:777
+msgid "Background image"
+msgstr ""
+
+#: core/pb-modules.php:778
+msgid "Background Position"
+msgstr ""
+
+#: core/pb-modules.php:780
+msgid "Background color"
+msgstr ""
+
+#: core/pb-modules.php:785
+msgid "Fullwidth Smart Cells Mode"
+msgstr ""
+
+#: core/pb-modules.php:829
+msgid "Google map code"
+msgstr ""
+
+#: core/pb-modules.php:831
+msgid "Example:"
+msgstr ""
+
+#: core/pb-modules.php:834
+msgid ""
+"Code from <a href='https://maps.google.com/' target='_blank'>Google maps</a>"
+msgstr ""
+
+#: core/pb-modules.php:857
+msgid ""
+"This module will display the entire content of the standard wordpress visual "
+"editor. Please note that you can use this module only once on the page."
+msgstr ""
+
+#: core/pb-modules.php:880
+msgid "This module displays the social sharing buttons."
+msgstr ""
+
+#: core/pb-modules.php:990
+msgid "Slogan"
+msgstr ""
+
+#: core/pb-modules.php:991
+msgid "Background Image"
+msgstr ""
+
+#: core/pb-modules.php:992
+msgid "Button text"
+msgstr ""
+
+#: core/pb-modules.php:993 core/pb-modules.php:1019 core/pb-modules.php:1048
+#: core/pb-modules.php:1212
+msgid "Link"
+msgstr ""
+
+#: core/pb-modules.php:994 core/pb-modules.php:1020 core/pb-modules.php:1049
+#: core/pb-modules.php:1213
+msgid "Target"
+msgstr ""
+
+#: core/pb-modules.php:1017
+msgid "Iconbox heading"
+msgstr ""
+
+#: core/pb-modules.php:1018
+msgid "Iconbox text"
+msgstr ""
+
+#: core/pb-modules.php:1043
+msgid "Imagebox heading"
+msgstr ""
+
+#: core/pb-modules.php:1044
+msgid "Imagebox text"
+msgstr ""
+
+#: core/pb-modules.php:1046
+msgid "Imagebox image width, px"
+msgstr ""
+
+#: core/pb-modules.php:1047
+msgid "Imagebox image height, px"
+msgstr ""
+
+#: core/pb-modules.php:1071
+msgid "Counter count"
+msgstr ""
+
+#: core/pb-modules.php:1072
+msgid "Counter title"
+msgstr ""
+
+#: core/pb-modules.php:1093
+msgid "Add new list item"
+msgstr ""
+
+#: core/pb-modules.php:1094
+msgid "List type"
+msgstr ""
+
+#: core/pb-modules.php:1120
+msgid "Add price item"
+msgstr ""
+
+#: core/pb-modules.php:1146
+msgid "Name"
+msgstr ""
+
+#: core/pb-modules.php:1150
+msgid "Currency"
+msgstr ""
+
+#: core/pb-modules.php:1154
+msgid "Price"
+msgstr ""
+
+#: core/pb-modules.php:1158
+msgid "Description"
+msgstr ""
+
+#: core/pb-modules.php:1161
+msgid "\"Get it now\" Link"
+msgstr ""
+
+#: core/pb-modules.php:1163
+msgid "\"Get it now\" caption"
+msgstr ""
+
+#: core/pb-modules.php:1165
+msgid "Most popular"
+msgstr ""
+
+#: core/pb-modules.php:1208
+msgid "Dish Category"
+msgstr ""
+
+#: core/pb-modules.php:1209
+msgid "Dish Title"
+msgstr ""
+
+#: core/pb-modules.php:1210
+msgid "Dish Description"
+msgstr ""
+
+#: core/pb-modules.php:1211
+msgid "Module orientation"
+msgstr ""
+
+#: core/pb-modules.php:1241
+msgid "Add time interval"
+msgstr ""
+
+#: core/pb-modules.php:1267
+msgid "Time interval"
+msgstr ""
+
+#: core/pb-modules.php:1269
+msgid "Monday"
+msgstr ""
+
+#: core/pb-modules.php:1271
+msgid "Tuesday"
+msgstr ""
+
+#: core/pb-modules.php:1273
+msgid "Wednesday"
+msgstr ""
+
+#: core/pb-modules.php:1275
+msgid "Thursday"
+msgstr ""
+
+#: core/pb-modules.php:1277
+msgid "Friday"
+msgstr ""
+
+#: core/pb-modules.php:1279
+msgid "Saturday"
+msgstr ""
+
+#: core/pb-modules.php:1281
+msgid "Sunday"
+msgstr ""
+
+#: core/pb-parser.php:185
+msgid "Read more!"
+msgstr ""
+
+#: core/registrator/custom-post-types.php:7
+msgid "Team"
+msgstr ""
+
+#: core/registrator/custom-post-types.php:28
+msgid "Gallery"
+msgstr ""
+
+#: core/registrator/custom-post-types.php:44
+msgid "Category"
+msgstr ""
+
+#: core/registrator/custom-post-types.php:48
+msgid "Testimonials"
+msgstr ""
+
+#: core/registrator/custom-post-types.php:49
+msgid "Add New"
+msgstr ""
+
+#: core/shortcodes/blog.php:115 core/shortcodes/feature_posts.php:78
+msgid "comment"
+msgstr ""
+
+#: core/shortcodes/blog.php:117 core/shortcodes/feature_posts.php:80
+msgid "comments"
+msgstr ""
+
+#: core/shortcodes/blog.php:140
+msgid "by"
+msgstr ""
+
+#: core/shortcodes/blog.php:145
+msgid "in "
+msgstr ""
+
+#: core/shortcodes/blog.php:158 core/shortcodes/feature_posts.php:120
+msgid "Read more"
+msgstr ""
+
+#: core/shortcodes/video.php:46 core/shortcodes/video.php:53
+msgid "Play Video"
+msgstr ""
+
+#: core/shortcodes/video.php:105
+msgid "Youtube"
+msgstr ""
+
+#: core/shortcodes/video.php:106
+msgid "Vimeo"
+msgstr ""
+
+#: gt3_builder.php:35
+msgid "GT3 Page Builder"
+msgstr ""
+
+#: gt3_builder.php:86
+msgid ""
+"You can use this drag and drop page builder to create unlimited custom page "
+"layouts. It is too simple, just click any module below, adjust your own "
+"settings and preview the page. That's all."
+msgstr ""
+
+#: gt3_builder.php:113
+msgid ""
+"The \"Template\" feature allows you to save the entire content of the page "
+"as a template and then to load it on any newly created pages."
+msgstr ""
+
+#: gt3_builder.php:117
+msgid "Save Template"
+msgstr ""
+
+#: gt3_builder.php:119
+msgid "Load whole page content from template"
+msgstr ""
+
+#: gt3_builder.php:120
+msgid "Load Template"
+msgstr ""
+
+#: gt3_builder.php:122
+msgid "Delete template permanently"
+msgstr ""
+
+#: gt3_builder.php:123
+msgid "Delete Template"
+msgstr ""
+
+#: gt3_builder.php:125
+msgid "Paste content from clipboard"
+msgstr ""
+
+#: gt3_builder.php:126
+msgid "Paste from Clipboard"
+msgstr ""
+
+#: gt3_builder.php:132 gt3_builder.php:140 gt3_builder.php:154
+msgid "Template Name: "
+msgstr ""
+
+#: gt3_builder.php:231
+msgid "Page Title  Alignment:"
+msgstr ""
+
+#: gt3_builder.php:240
+msgid "Page Subtitle  Alignment:"
+msgstr ""
+
+#: gt3_builder.php:249
+msgid "Text Divider:"
+msgstr ""
+
+#: gt3_builder.php:276
+msgid "Video height, px:"
+msgstr ""
+
+#: gt3_builder.php:342
+msgid "Gallery Options"
+msgstr ""
+
+#: gt3_builder.php:390
+msgid "Author:"
+msgstr ""
+
+#: gt3_builder.php:391
+msgid "Occupation:"
+msgstr ""
+
+#: gt3_builder.php:430
+msgid "Social Icons"
+msgstr ""
+
+#: gt3_builder.php:440
+msgid "Give Some Name"
+msgstr ""
+
+#: gt3_builder.php:441
+msgid "Give Some Link"
+msgstr ""
+
+#: gt3_builder.php:442
+msgid "Background Color"
+msgstr ""
+
+#: gt3_builder.php:444
+msgid "Open in New Window:"
+msgstr ""
+
+#~ msgid "test"
+#~ msgstr "1311111113"

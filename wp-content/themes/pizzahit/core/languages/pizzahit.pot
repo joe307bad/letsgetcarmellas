@@ -1,0 +1,675 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GT3Themes WP\n"
+"POT-Creation-Date: 2017-05-08 17:48+0300\n"
+"PO-Revision-Date: 2016-07-11 14:16+0300\n"
+"Last-Translator: \n"
+"Language-Team: GT3Themes <help@gt3themes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:9
+msgid "TAKE ME HOME"
+msgstr ""
+
+#: bloglisting.php:18 single.php:52
+msgid "comment"
+msgstr ""
+
+#: bloglisting.php:20 single.php:54
+msgid "comments"
+msgstr ""
+
+#: bloglisting.php:75 search.php:65 single.php:237
+msgid "by"
+msgstr ""
+
+#: bloglisting.php:80
+msgid "in "
+msgstr ""
+
+#: bloglisting.php:91 core/registrator/ajax-handlers.php:94 search.php:74
+msgid "Read more"
+msgstr ""
+
+#: comments.php:4
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:19
+msgid "Comments on This Post"
+msgstr ""
+
+#: comments.php:45
+msgid "Your Name"
+msgstr ""
+
+#: comments.php:46
+msgid "Your Email"
+msgstr ""
+
+#: comments.php:48
+msgid "Your Comment"
+msgstr ""
+
+#: comments.php:52
+msgid "You must be logged in to post a comment."
+msgstr ""
+
+#: comments.php:53
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:54
+msgid "Send Comment"
+msgstr ""
+
+#: comments.php:55
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:55
+msgid "Log out?"
+msgstr ""
+
+#: comments.php:61
+msgid "Sorry, the comment form is closed at this time."
+msgstr ""
+
+#: core/admin/options.php:77
+msgid "Copyright"
+msgstr ""
+
+#: core/admin/options.php:366
+msgid "Facebook"
+msgstr ""
+
+#: core/admin/options.php:373
+msgid "Flickr"
+msgstr ""
+
+#: core/admin/options.php:380
+msgid "Tumblr"
+msgstr ""
+
+#: core/admin/options.php:387
+msgid "Instagram"
+msgstr ""
+
+#: core/admin/options.php:394
+msgid "Twitter"
+msgstr ""
+
+#: core/admin/options.php:401
+msgid "Youtube"
+msgstr ""
+
+#: core/admin/options.php:408
+msgid "Dribbble"
+msgstr ""
+
+#: core/admin/options.php:415
+msgid "Google+"
+msgstr ""
+
+#: core/admin/options.php:422
+msgid "Vimeo"
+msgstr ""
+
+#: core/admin/options.php:429
+msgid "Delicious"
+msgstr ""
+
+#: core/admin/options.php:436
+msgid "Linked In"
+msgstr ""
+
+#: core/admin/options.php:443
+msgid "Pinterest"
+msgstr ""
+
+#: core/admin/options.php:477
+msgid "Timetable title"
+msgstr ""
+
+#: core/admin/options.php:484
+msgid "Timetable text"
+msgstr ""
+
+#: core/admin/options.php:579
+msgid "Trackbacks and Pingbacks"
+msgstr ""
+
+#: core/admin/options.php:585
+msgid "Disabled"
+msgstr ""
+
+#: core/admin/options.php:586
+msgid "Enabled"
+msgstr ""
+
+#: core/admin/options.php:596
+msgid "Footer Instagram Feed Shortcode"
+msgstr ""
+
+#: core/registrator/ajax-handlers.php:87
+msgid " comments"
+msgstr ""
+
+#: core/registrator/ajax-handlers.php:184
+msgid "No Images"
+msgstr ""
+
+#: core/registrator/ajax-handlers.php:283
+msgid "Mega Menu"
+msgstr ""
+
+#: core/registrator/ajax-handlers.php:302
+msgid "Save Settings"
+msgstr ""
+
+#: core/registrator/misc.php:64
+msgid "Custom Sidebars"
+msgstr ""
+
+#: core/registrator/misc.php:119
+msgid "Custom Layout"
+msgstr ""
+
+#: core/registrator/sidebars.php:10
+msgid ""
+"Add the widgets appearance for Custom Sidebar. Drag the widget from the "
+"available list on the left, configure widgets options and click Save button. "
+"Select the sidebar on the posts or pages in just few clicks."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:334 core/tgm/gt3-tgm.php:74
+msgid "Install Required Plugins"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:335 core/tgm/gt3-tgm.php:75
+msgid "Install Plugins"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:337 core/tgm/gt3-tgm.php:76
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:340 core/tgm/gt3-tgm.php:77
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:342 core/tgm/gt3-tgm.php:78
+#, php-format
+msgid "This theme requires the following plugins: %1$s."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:346 core/tgm/gt3-tgm.php:79
+#, php-format
+msgid "This theme recommends the following plugins: %1$s."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:350 core/tgm/gt3-tgm.php:84
+#, php-format
+msgid ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There are updates available for the following plugins: %1$s."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:358 core/tgm/gt3-tgm.php:81
+#, php-format
+msgid "The following required plugins are currently inactive: %1$s."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:362 core/tgm/gt3-tgm.php:82
+#, php-format
+msgid "The following recommended plugins are currently inactive: %1$s."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:366 core/tgm/gt3-tgm.php:86
+msgid "Begin installing plugins"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:370
+msgid "Begin updating plugins"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:374 core/tgm/gt3-tgm.php:87
+msgid "Begin activating plugins"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:377 core/tgm/gt3-tgm.php:88
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:378
+#: core/tgm/class-tgm-plugin-activation.php:897
+#: core/tgm/class-tgm-plugin-activation.php:2603
+#: core/tgm/class-tgm-plugin-activation.php:3650
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:379
+#: core/tgm/class-tgm-plugin-activation.php:3229 core/tgm/gt3-tgm.php:89
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:380
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:382
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:384
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:386
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:387
+msgid "Dismiss this notice"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:388
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:389
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:593
+msgid "Update Required"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:1004
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:1004
+#: core/tgm/class-tgm-plugin-activation.php:1007
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:1007
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2052
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2343
+msgid "Required"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2346
+msgid "Recommended"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2362
+msgid "WordPress Repository"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2365
+msgid "External Source"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2368
+msgid "Pre-Packaged"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2385
+msgid "Not Installed"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2389
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2391
+msgid "Active"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2397
+msgid "Required Update not Available"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2400
+msgid "Requires Update"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2403
+msgid "Update recommended"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2560
+msgid "Installed version:"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2568
+msgid "Minimum required version:"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2580
+msgid "Available version:"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2603
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2617
+msgid "Plugin"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2618
+msgid "Source"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2619
+msgid "Type"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2623
+msgid "Version"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2624
+msgid "Status"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2673
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2678
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2684
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2754
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2787
+msgid "Install"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2793
+msgid "Update"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2796
+msgid "Activate"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2827
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2829
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2870
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2872
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2978
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3004
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3228
+msgid "Plugin activation failed."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3568
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3571
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3573
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3577
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3579
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3579
+#: core/tgm/class-tgm-plugin-activation.php:3587
+msgid "Show Details"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3579
+#: core/tgm/class-tgm-plugin-activation.php:3587
+msgid "Hide Details"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3580
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3582
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3585
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3587
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3588
+msgid "All installations have been completed."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3590
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: core/tgm/gt3-tgm.php:14
+msgid "GT3 Page Builder (For Pizza HIT Theme Only)"
+msgstr ""
+
+#: core/tgm/gt3-tgm.php:23
+msgid "Revolution Slider"
+msgstr ""
+
+#: core/tgm/gt3-tgm.php:32
+msgid "GT3 Photo & Video Gallery"
+msgstr ""
+
+#: core/tgm/gt3-tgm.php:37
+msgid "Contact Form 7"
+msgstr ""
+
+#: core/tgm/gt3-tgm.php:42
+msgid "WooCommerce"
+msgstr ""
+
+#: core/tgm/gt3-tgm.php:47
+msgid "Instagram Feed"
+msgstr ""
+
+#: core/tgm/gt3-tgm.php:52
+msgid "Mailchimp"
+msgstr ""
+
+#: core/tgm/gt3-tgm.php:80
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr ""
+
+#: core/tgm/gt3-tgm.php:83
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr ""
+
+#: core/tgm/gt3-tgm.php:85
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr ""
+
+#: core/tgm/gt3-tgm.php:90
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: core/widgets/posts.php:26 page.php:51 single-team.php:28 single.php:95
+msgid "Read more!"
+msgstr ""
+
+#: functions.php:359
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:363
+msgid "Reply"
+msgstr ""
+
+#: functions.php:597 functions.php:608
+msgid "To view it please enter your password"
+msgstr ""
+
+#: functions.php:609
+msgid "To view it please enter your password (Hint:12345)"
+msgstr ""
+
+#: functions.php:624
+msgid "Please select image to display as a featured one"
+msgstr ""
+
+#: functions.php:800 functions.php:1023
+msgid "View your shopping cart"
+msgstr ""
+
+#: functions.php:1083
+msgid "Sort by Date"
+msgstr ""
+
+#: image.php:66
+msgid "Published on"
+msgstr ""
+
+#: image.php:66 single.php:84 single.php:242
+msgid "in"
+msgstr ""
+
+#: image.php:84
+msgid "Full resolution"
+msgstr ""
+
+#: image.php:89
+msgid "Edit"
+msgstr ""
+
+#: image.php:96
+msgid "Pages:"
+msgstr ""
+
+#: page.php:52 single-team.php:29 single.php:96 woocommerce.php:20
+msgid "Pages"
+msgstr ""
+
+#: search.php:24
+msgid "Search Results:"
+msgstr ""
+
+#: search.php:92
+msgid "Sorry! No Posts Were Found"
+msgstr ""
+
+#: searchform.php:2 searchform.php:3
+msgid "Search"
+msgstr ""
+
+#: single.php:79
+msgid "by "
+msgstr ""
+
+#: single.php:181
+msgid "Related Posts"
+msgstr ""
