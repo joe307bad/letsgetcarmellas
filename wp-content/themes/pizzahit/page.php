@@ -71,3 +71,5 @@ if ( !post_password_required() ) {
 
 <?php get_footer();
 } ?>
+
+<img id="background-image" src="<?php echo get_template_directory_uri(); ?>/img/background.png" />

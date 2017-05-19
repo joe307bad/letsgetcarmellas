@@ -77,7 +77,7 @@ $gt3_tabs_admin_theme->add(new Tab_admin_theme(array(
         'name' => esc_html__('Copyright', 'pizzahit'),
         'id' => 'footer_line_1',
         'option_style' => 'width: 100%;',
-        'default' => 'Copyright &copy; 2017 Pizza HIT. All Rights Reserved.'
+        'default' => "Copyright &copy; 2017 Carmella's Pizza. All Rights Reserved."
     )),
 	new TextareaOption_admin_theme(array(
         'name' => 'Any code (before &lt;/head&gt;)',
@@ -485,7 +485,7 @@ $gt3_tabs_admin_theme->add(new Tab_admin_theme(array(
         'id' => 'timetable_text',
         'option_style' => 'width: 100%;',
         'width' => '100%',
-        'default' => 'Mn - St: 8:00am - 9:00pm Sn: Closed'
+        'default' => 'Mn - St: 10:00am - 11:00pm Sn: Closed'
     )),
 )));
 

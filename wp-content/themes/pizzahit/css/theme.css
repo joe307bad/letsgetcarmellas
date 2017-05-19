@@ -4403,3 +4403,50 @@ iframe {
 .commentlist #respond {
   padding-bottom: 33px;
 }
+
+.module_line_trigger{
+  background-color:transparent !important;
+}
+
+header.gt3_header_type_45.sticky_off{
+  background-color:transparent !important;
+}
+
+header .menu{
+  margin-right: -18px;
+}
+
+body{
+  background: rgba(255, 167, 0, 0.09);
+}
+
+.logo_def{
+  height: 200px;
+  max-width: none;
+  width: auto;
+  margin-right: -34px;
+
+}
+
+#background-image{
+
+  position: fixed;
+  bottom: -200px;
+  width: 100%;
+  z-index: -1;
+  opacity: .1;
+}
+
+.header_cart_content{
+  width: 100%;
+  padding: 0px !important;
+}
+
+.header_cart_content .shortcode_button.btn_large.btn_type1{
+  color:white;
+  margin-top:-10px;
+}
+
+p{
+  color:black !important;
+}

@@ -803,10 +803,7 @@ if (!function_exists('gt3_get_header'))
                     if (is_plugin_active('woocommerce/woocommerce.php')) {
                     ?>
                       <div class="header_cart_content">
-                        <a class="gt3-cart-contents total_price" href="<?php echo WC()->cart->get_cart_url(); ?>" title="<?php esc_html_e( 'View your shopping cart', 'pizzahit' ); ?>">
-                          <i class="fa fa-shopping-cart"></i>
-                          <?php echo WC()->cart->get_cart_total(); ?> <span class="gt3_header_cart_items">(<?php echo sprintf ( _n( '%d item', '%d items', WC()->cart->get_cart_contents_count(), 'pizzahit' ), WC()->cart->get_cart_contents_count() ); ?>)</span>
-                        </a>
+                        <a class="shortcode_button btn_large btn_type1" target="_blank" href="#">Order Now</a>
                       </div>
                     <?php
                       // Header Cart End
