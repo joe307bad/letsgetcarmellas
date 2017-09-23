@@ -76,7 +76,7 @@ function square_cut_pizza_sizes_product_tab_content() {
 
 
     woocommerce_wp_text_input( array(
-        'id'			=> '_six_cut_price',
+        'id'			=> '_sc_six_cut_price',
         'label'			=> __( '6 cut Small Price', 'woocommerce' ),
         'desc_tip'		=> 'true',
         'description'	=> __( 'Price of a small pizza', 'woocommerce' ),
@@ -84,7 +84,7 @@ function square_cut_pizza_sizes_product_tab_content() {
     ) );
 
     woocommerce_wp_text_input( array(
-        'id'			=> '_twelve_cut_price',
+        'id'			=> '_sc_twelve_cut_price',
         'label'			=> __( '12 cut Large Price', 'woocommerce' ),
         'desc_tip'		=> 'true',
         'description'	=> __( 'Price of an Large pizza', 'woocommerce' ),
@@ -92,7 +92,7 @@ function square_cut_pizza_sizes_product_tab_content() {
     ) );
 
     woocommerce_wp_text_input( array(
-        'id'			=> '_twenty_four_cut_price',
+        'id'			=> '_sc_twenty_four_cut_price',
         'label'			=> __( '24 cut XLarge Price', 'woocommerce' ),
         'desc_tip'		=> 'true',
         'description'	=> __( 'Price of an xlarge pizza', 'woocommerce' ),
@@ -116,14 +116,14 @@ function save_square_cut_pizza_size_field( $post_id ) {
     $pizza_size = isset( $_POST['_enable_square_cut_pizza_sizes'] ) ? 'yes' : 'no';
     update_post_meta( $post_id, '_enable_square_cut_pizza_sizes', $pizza_size );
 
-    if ( isset( $_POST['_six_cut_price'] ) ) :
-        update_post_meta( $post_id, '_six_cut_price', sanitize_text_field( $_POST['_six_cut_price'] ) );
+    if ( isset( $_POST['_sc_six_cut_price'] ) ) :
+        update_post_meta( $post_id, '_sc_six_cut_price', sanitize_text_field( $_POST['_sc_six_cut_price'] ) );
     endif;
-    if ( isset( $_POST['_twelve_cut_price'] ) ) :
-        update_post_meta( $post_id, '_twelve_cut_price', sanitize_text_field( $_POST['_twelve_cut_price'] ) );
+    if ( isset( $_POST['_sc_twelve_cut_price'] ) ) :
+        update_post_meta( $post_id, '_sc_twelve_cut_price', sanitize_text_field( $_POST['_sc_twelve_cut_price'] ) );
     endif;
-    if ( isset( $_POST['_twenty_four_cut_price'] ) ) :
-        update_post_meta( $post_id, '_twenty_four_cut_price', sanitize_text_field( $_POST['_twenty_four_cut_price'] ) );
+    if ( isset( $_POST['_sc_twenty_four_cut_price'] ) ) :
+        update_post_meta( $post_id, '_sc_twenty_four_cut_price', sanitize_text_field( $_POST['_sc_twenty_four_cut_price'] ) );
     endif;
 
 }
