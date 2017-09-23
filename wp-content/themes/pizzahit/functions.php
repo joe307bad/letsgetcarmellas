@@ -627,6 +627,7 @@ function gt3_get_field_media_and_attach_id($name, $attach_id, $previewW = "200px
   </div>";
 }
 
+require_once( __DIR__ . '/custom-product-types.php');
 
 function gt3_showJSInFooter()
 {
