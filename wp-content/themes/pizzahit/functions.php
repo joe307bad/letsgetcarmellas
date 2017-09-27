@@ -1152,6 +1152,13 @@ add_theme_support( 'wc-product-gallery-slider' );
 
 
 
+add_action('wp_enqueue_scripts', 'custom_less');
+function custom_less()
+{
+    wp_enqueue_style('theme-main', get_stylesheet_directory_uri().'/css/less/main.less');
+}
+
+
 
 
 
