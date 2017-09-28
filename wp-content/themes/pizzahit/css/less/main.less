@@ -27,9 +27,8 @@
     margin: 0 auto;
   }
 
-  .col-xs-4{
-    height: 175px;
-
+  .col-xs-4 {
+    min-height: 175px;
   }
 
   p {
@@ -48,13 +47,89 @@
     margin-bottom: 50px;
   }
 
-  .category:nth-of-type(2n) {
+  .category {
     background: url("http://gt3demo.com/wp/pizzahut/wp-content/uploads/sites/6/2016/08/13_2.jpg");
     background-attachment: fixed;
+  }
 
-    .col-xs-6 {
-      background: rgba(255, 247, 232, 0.8);
-      padding-bottom: 75px;
+  .category:nth-of-type(2n) {
+    background: none;
+  }
+
+  .category-inner {
+    background: rgba(255, 247, 232, 0.8);
+    padding-bottom: 75px;
+  }
+
+  .category#pizzas,
+  .category#specialtypizza,
+  .category#squarecuttraystylepizza,
+  .category#subs {
+
+    table td, table th {
+      border-color: transparent;
+      padding: 0px;
+      min-width: 130px;
     }
+
+    table th h2 {
+      text-align: center;
+      font-size: 25px;
+      margin: 0px;
+      line-height: 27px;
+      width: 100%;
+      max-width: none;
+    }
+
+    table td .woocommerce-Price-amount {
+      color: #dd3601;
+    }
+
+    table td:not(:nth-child(1)) {
+      text-align: center;
+      span {
+        width: 100%;
+      }
+    }
+
+    h2 {
+      width: 100%;
+      max-width: none;
+    }
+
+    ul {
+      list-style: none;
+      float: left;
+      margin: 0;
+      padding: 0;
+      li {
+        text-align: left;
+        color: black;
+      }
+    }
+
+    #crusts h2 {
+      float: left;
+      width: 77px;
+    }
+
+    #crusts p {
+      float: left;
+      display: inline;
+      padding-top: 20px;
+      width: 48%;
+    }
+  }
+
+  .category#specialtypizza p {
+    margin-top: 0px;
+  }
+
+  .category#subs h2 {
+    margin-bottom: 10px;
+  }
+
+  .category#subs p {
+    padding-bottom: 40px;
   }
 }

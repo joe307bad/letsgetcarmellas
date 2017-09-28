@@ -18,11 +18,14 @@ $count = count($product_categories);
         <?php
         if ($count > 0) {
             foreach ($product_categories as $product_category) {
+                $categoryName = $product_category->name;
+                $cleanCategoryName
+                    = strtolower(preg_replace("/[^a-zA-Z]+/", "", $categoryName));
                 ?>
-                <div class="category">
+                <div class="category" id="<?php echo $cleanCategoryName ?>">
                     <div class="category-inner col-xs-6">
                         <h4>
-                            <?php echo $product_category->name ?>
+                            <?php echo $categoryName ?>
                         </h4>
                         <div class="heading_title_divider"></div>
                         <?php
@@ -41,28 +44,23 @@ $count = count($product_categories);
                             'orderby' => 'title,'
                         );
                         $products = new WP_Query($args);
-                        while ($products->have_posts()) {
-                            $products->the_post();
-                            $price =
-                                get_post_meta(get_the_ID(), '_regular_price', true);
-                            ?>
-                            <div class="col-xs-4">
-                                <a>
-                                    <h2 class="woocommerce-loop-product__title">
-                                        <?php the_title(); ?>
-                                    </h2>
-                                    <span class="woocommerce-Price-amount amount">
-                        <span class="woocommerce-Price-currencySymbol">$</span>
-                                        <?php echo $price; ?>
-                    </span>
-                                    <p>
-                                        <?php the_content(); ?>
-                                    <div class="clearfix"></div>
-                                    </p>
-                                </a>
-                            </div>
-                            <?php
-                        } ?>
+                        switch ($cleanCategoryName) {
+                            case "pizzas";
+                                include("product-types/templates/pizzas.php");
+                                break;
+                            case "specialtypizza";
+                                include("product-types/templates/specialty-pizzas.php");
+                                break;
+                            case "squarecuttraystylepizza";
+                                include("product-types/templates/square-cut-pizzas.php");
+                                break;
+                            case "subs";
+                                include("product-types/templates/subs.php");
+                                break;
+                            default:
+                                include("product-types/templates/default.php");
+                        }
+                        ?>
                         <div class="clearfix"></div>
                     </div>
                     <div class="clearfix"></div>
