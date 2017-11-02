@@ -13,7 +13,7 @@ while ($products->have_posts()) {
     $price =
         get_post_meta(get_the_ID(), '_regular_price', true);
     ?>
-    <div class="col-xs-4">
+    <div class="product">
         <a>
             <h2 class="woocommerce-loop-product__title">
                 <?php the_title(); ?>

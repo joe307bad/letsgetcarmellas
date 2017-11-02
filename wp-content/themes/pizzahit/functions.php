@@ -804,7 +804,7 @@ if (!function_exists('gt3_get_header'))
                     if (is_plugin_active('woocommerce/woocommerce.php')) {
                     ?>
                       <div class="header_cart_content">
-                        <a class="shortcode_button btn_large btn_type1" target="_blank" href="#">Order Now</a>
+                        <a class="shortcode_button btn_large btn_type1" target="_blank" href="https://letsgetcarmellas.hungerrush.com/">Order Now</a>
                       </div>
                     <?php
                       // Header Cart End

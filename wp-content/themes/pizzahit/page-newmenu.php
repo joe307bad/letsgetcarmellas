@@ -23,7 +23,7 @@ $count = count($product_categories);
                     = strtolower(preg_replace("/[^a-zA-Z]+/", "", $categoryName));
                 ?>
                 <div class="category" id="<?php echo $cleanCategoryName ?>">
-                    <div class="category-inner col-xs-6">
+                    <div class="category-inner">
                         <h4>
                             <?php echo $categoryName ?>
                         </h4>

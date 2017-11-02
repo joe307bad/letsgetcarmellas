@@ -76,7 +76,7 @@
         Original Thin or Hand Tosses
     </p>
 </div>
-<div class="col-xs-8">
+<div id="toppings" class="col-xs-8">
     <h2 class="woocommerce-loop-product__title">
         Toppings
     </h2>
