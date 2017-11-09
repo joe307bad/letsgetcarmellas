@@ -6,6 +6,8 @@
  * Time: 7:42 PM
  */
 ?>
+
+<div class="table-container">
 <table>
     <thead>
     <tr>
@@ -68,6 +70,7 @@
     } ?>
 
 </table>
+</div>
 <div class="col-xs-12" id="crusts">
     <h2 class="woocommerce-loop-product__title">
         Crusts

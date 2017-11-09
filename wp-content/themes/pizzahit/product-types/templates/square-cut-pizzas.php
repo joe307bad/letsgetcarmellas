@@ -6,6 +6,7 @@
  * Time: 7:42 PM
  */
 ?>
+<div class="table-container">
 <table>
     <thead>
     <tr>
@@ -69,6 +70,7 @@
     } ?>
 
 </table>
+</div>
 <p>
 
     <?php the_content(); ?>

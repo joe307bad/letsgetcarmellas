@@ -230,7 +230,6 @@ a.logo_link {
 }
 
 header {
-	background: #303238;
 	width: 100%;
 	color: #ffffff;
 }
@@ -528,7 +527,6 @@ header .field_search {
 header .head_delim {
 	width: 1px;
 	height: 12px;
-	background: #595b60;
 	position: relative;
 	bottom: -7px;
 	margin: 0 16px;
@@ -545,7 +543,8 @@ header .head_logo_delim_wrapper {
 header .head_logo_delim {
 	width: 1px;
 	height: 29px;
-	background: #595b60;
+
+
 	position: absolute;
 	top: 0;
 	left: 0;

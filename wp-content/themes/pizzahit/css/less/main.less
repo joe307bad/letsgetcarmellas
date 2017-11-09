@@ -3,6 +3,10 @@
 @md: 991px;
 @sm: 900px;
 
+
+header{
+  //background: rgba(255, 247, 232, 0.8) !important;
+}
 header .header_cart_content {
   display: block !important;
   padding-top: 33px;
@@ -28,6 +32,11 @@ h1, h2, h3, h4, h5, h6 {
 #menu-container {
   text-align: center;
 
+  #beverages .product{
+
+    min-height: 0px !important;
+  }
+
   h4 {
     width: 100%;
     float: left;
@@ -38,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
   h2 {
     font-size: 24px;
     float: left;
-    max-width: 187px;
+    max-width: 139px;
     text-align: left;
     line-height: 36px;
 
@@ -52,6 +61,8 @@ h1, h2, h3, h4, h5, h6 {
     float: right;
     font-size: 20px;
     line-height: 32px;
+    position: absolute;
+    right: 14px;
 
     @media (min-width: @sm) {
       font-size: 30px;
@@ -71,11 +82,11 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     float: left;
     height: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 3px;
   }
 
   .category {
-    background: url("http://gt3demo.com/wp/pizzahut/wp-content/uploads/sites/6/2016/08/13_2.jpg");
+    //background: url("http://gt3demo.com/wp/pizzahut/wp-content/uploads/sites/6/2016/08/13_2.jpg");
     background-attachment: fixed;
   }
 
@@ -85,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 
   .category-inner {
     background: rgba(255, 247, 232, 0.8);
-    padding: 10px 10px 75px 10px;
+    //padding: 10px 10px 75px 10px;
     float: none !important;
     margin: 0 auto;
 
@@ -99,18 +110,22 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .product {
-      min-height: 74px;
       width: 100%;
       float: left;
-      padding: 12px;
+      -webkit-box-shadow: -1px 10px 28px -8px rgba(0,0,0,0.75);
+      -moz-box-shadow: -1px 10px 28px -8px rgba(0,0,0,0.75);
+      box-shadow: -1px 10px 28px -8px rgba(0,0,0,0.75);
+      padding: 25px;
+      margin: 10px;
+      position:relative;
 
       @media (min-width: @sm) {
-        min-height: 175px;
-        width: 49%;
+        min-height: 239px;
+        width: 47%;
       }
 
       @media (min-width: @l) {
-        width: 33.33333333%;
+        width: 30.33333333%;
       }
     }
   }
@@ -120,6 +135,16 @@ h1, h2, h3, h4, h5, h6 {
   .category#squarecuttraystylepizza,
   .category#subs {
 
+    .table-container{
+      float: left;
+      width: 100%;
+      padding: 21px;
+      margin-bottom: 20px;
+      -webkit-box-shadow: -1px 10px 28px -8px rgba(0,0,0,0.75);
+      -moz-box-shadow: -1px 10px 28px -8px rgba(0,0,0,0.75);
+      box-shadow: -1px 10px 28px -8px rgba(0,0,0,0.75);
+    }
+
     table {
       table-layout: fixed;
     }
@@ -128,6 +153,7 @@ h1, h2, h3, h4, h5, h6 {
       border-color: transparent;
       padding: 0px;
       min-width: 130px;
+      position: relative;
     }
 
     table th h2 {
@@ -152,6 +178,10 @@ h1, h2, h3, h4, h5, h6 {
       span {
         width: 100%;
       }
+    }
+
+    table .amount{
+      top: 2px;
     }
 
     h2 {

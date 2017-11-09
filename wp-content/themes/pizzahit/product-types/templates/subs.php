@@ -6,6 +6,8 @@
  * Time: 7:42 PM
  */
 ?>
+
+<div class="table-container">
 <table>
     <thead>
     <tr>
@@ -57,6 +59,7 @@
     } ?>
 
 </table>
+</div>
 <div class="clearfix"></div>
 
 
