@@ -13,7 +13,7 @@ $tabs->add(new Tab(array(
         'name' => 'Header logo',
         'id' => 'logo',
         'desc' => 'Default: 101px x 112px',
-        'default' => '/img/logo.png'
+        'default' => '/img/logo1.png'
     )),
     new textOption(array(
         'name' => 'Header logo width',

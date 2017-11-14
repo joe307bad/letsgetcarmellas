@@ -71,6 +71,8 @@ $count = count($product_categories);
         ?>
         <div class="clearfix"></div>
     </div>
+
+    <img id="background-image" src="<?php echo get_template_directory_uri(); ?>/img/background.png" />
 <?php
 get_footer();
 ?>
