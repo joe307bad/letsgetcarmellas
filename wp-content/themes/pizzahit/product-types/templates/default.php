@@ -12,8 +12,11 @@ while ($products->have_posts()) {
     $products->the_post();
     $price =
         get_post_meta(get_the_ID(), '_regular_price', true);
+
     ?>
+
     <div class="product">
+        <?php the_post_thumbnail(); ?>
         <a>
             <h2 class="woocommerce-loop-product__title">
                 <?php the_title(); ?>

@@ -37,6 +37,7 @@
 
         <tr>
             <td>
+                <?php the_post_thumbnail(); ?>
                 <h2 class="woocommerce-loop-product__title">
                     <?php the_title(); ?>
                 </h2>
